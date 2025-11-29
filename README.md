@@ -38,9 +38,9 @@ We provide preprocessed versions of the following datasets used for the experime
 - **MHEALTH**: A dataset for human activity recognition collected from wearable devices.
 
 You can access the raw datasets from the following links:
-- [PAMAP2](https://www.pamap2.org/)
-- [OPPORTUNITY](https://www.opportunitydataset.org/)
-- [MHEALTH](https://www.universityofgranada.com/mhealth)
+- [PAMAP2]([https://www.pamap2.org/](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring))
+- [OPPORTUNITY]([https://www.opportunitydataset.org/](https://archive.ics.uci.edu/dataset/226/opportunity+activity+recognition))
+- [MHEALTH]([https://www.universityofgranada.com/mhealth](https://archive.ics.uci.edu/dataset/319/mhealth+dataset))
 
 The preprocessed datasets are included in this repository as `.npy` files for easier use.
 
@@ -60,4 +60,5 @@ To use the code and datasets, please follow these steps:
     You will need Python 3.x and the following libraries:
     ```bash
     pip install -r requirements.txt
+
     ```
