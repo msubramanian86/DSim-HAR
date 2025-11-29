@@ -1,7 +1,7 @@
 
-# DSimGT-HAR: Dual Similitude Graph Transformer for Human Activity Recognition
+# DSimGT-HAR: Dual Simulated Graph Transformer for Human Activity Recognition
 
-This repository contains the code, datasets, and model for the **Dual Similitude Graph Transformer (DSimGT)** designed for **Human Activity Recognition (HAR)**. The proposed DSimGT model improves HAR performance by leveraging dual graph construction and edge-aware attention, capturing both direct and indirect inter-sensor dependencies.
+This repository contains the code, datasets, and model for the **Dual Simulated Graph Transformer (DSimGT)** designed for **Human Activity Recognition (HAR)**. The proposed DSimGT model improves HAR performance by leveraging dual graph construction and edge-aware attention, capturing both direct and indirect inter-sensor dependencies.
 
 ## Overview
 
@@ -12,21 +12,10 @@ This repository provides:
   
 It includes the model architecture, evaluation benchmarks, and training pipelines to replicate the results of the research.
 
-## Paper
-
-This work is presented in the paper:
-
-**Dual Similitude Graph Transformer Model for Human Activity Recognition**,  
-by *[Your Name]* and *[Co-author Names]*,  
-**Machine Learning: Science and Technology** (2025).  
-DOI: [DOI if available]
-
-You can read the full paper [here](insert-link-to-paper).
-
 ## Features
 
 - **Dual Graph Construction**: Constructs two complementary graphs — one based on Pearson correlation and the other on convolutional feature correlations.
-- **Dual Similitude Graph Transformer (DSimGT)**: A novel graph transformer that incorporates both direct and indirect edge information for more accurate and interpretable HAR.
+- **Dual Simulated Graph Transformer (DSimGT)**: A novel graph transformer that incorporates both direct and indirect edge information for more accurate and interpretable HAR.
 - **State-of-the-art performance**: DSimGT outperforms traditional CNN, LSTM, and GNN-based methods on the **PAMAP2**, **OPPORTUNITY**, and **MHEALTH** datasets.
 
 ## Datasets
@@ -54,6 +43,7 @@ To use the code and datasets, please follow these steps:
     git clone https://github.com/msubramanian86/DSim-HAR.git
     cd DSimGT-HAR-Data
     ```
+
 
 
 
