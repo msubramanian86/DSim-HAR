@@ -51,15 +51,9 @@ To use the code and datasets, please follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/DSimGT-HAR-Data.git
+    git clone https://github.com/msubramanian86/DSim-HAR.git
     cd DSimGT-HAR-Data
     ```
 
-2. **Install dependencies**:
 
-    You will need Python 3.x and the following libraries:
-    ```bash
-    pip install -r requirements.txt
-
-    ```
 
